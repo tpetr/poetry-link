@@ -7,8 +7,8 @@ __version__ = '0.1.6'
 
 from poetry.console.application import Application
 from poetry.plugins.application_plugin import ApplicationPlugin
-from slam.ext.application.link import LinkCommandPlugin
-from slam.util.cleo import add_style
+from slap.ext.application.link import LinkCommandPlugin
+from slap.util.cleo import add_style
 
 
 class LinkCommand(LinkCommandPlugin):
