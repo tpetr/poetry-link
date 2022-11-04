@@ -15,7 +15,7 @@ class LinkCommand(LinkCommandPlugin):
 
   @staticmethod
   def factory() -> LinkCommand:
-    from slam.application import Application
+    from slap.application import Application
     app = Application()
     app.load_projects()
     command = LinkCommand()
